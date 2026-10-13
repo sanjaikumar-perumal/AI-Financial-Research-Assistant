@@ -1,10 +1,13 @@
+import os                    # Works with file paths and environment-related operations.
+import tempfile	             # Creates temporary files for uploaded PDFs.
+import streamlit as st	     # Builds the web interface.
 streamlit                    # Builds the interface
-python-dotenv
-pypdf
-langchain-core
-langchain-community
+python-dotenv                # Loads environment variables from .env.
+pypdf                        # Extracts text and page information from PDFs
+langchain-core               # Provides prompts, message structures, and the prompt \| llm pipeline.
+langchain-community          # Integrations with external tools and data sources
 langchain-text-splitters     # Divides the text
 langchain-chroma             # Stores and searches the representations.
 langchain-huggingface        # Creates numerical representations of text
 langchain-groq               # Connects to the LLM
-sentence-transformers
+sentence-transformers        # Converts text into numerical vectors called embeddings
