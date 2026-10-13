@@ -1,1 +1,14 @@
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local vector database
+chroma_db/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
 
