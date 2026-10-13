@@ -1,1 +1,10 @@
-
+streamlit                    # Builds the interface
+python-dotenv
+pypdf
+langchain-core
+langchain-community
+langchain-text-splitters     # Divides the text
+langchain-chroma             # Stores and searches the representations.
+langchain-huggingface        # Creates numerical representations of text
+langchain-groq               # Connects to the LLM
+sentence-transformers
