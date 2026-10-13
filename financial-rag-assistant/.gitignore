@@ -1,16 +1,4 @@
-# Secrets
-.env
-
-# Python environment and cache
-.venv/
-venv/
-__pycache__/
-*.py[cod]
-
-# Local vector database
-chroma_db/
-
-# Editor and operating system files
-.vscode/
-.DS_Store
-Thumbs.db
+.env           —> Prevents your secret API key from being uploaded.
+.venv/         —> Excludes your Python virtual environment.
+__pycache__/   —> Excludes Python's temporary cache files.
+chroma_db/     —> Excludes your local vector database files.
