@@ -1,3 +1,6 @@
+# Secrets
+.env
+
 # Python environment and cache
 .venv/
 venv/
@@ -11,4 +14,3 @@ chroma_db/
 .vscode/
 .DS_Store
 Thumbs.db
-
